@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Grid UI Elements</title>
+
+	<style>
+
+	* {box-sizing: border-box;}
+
+.media {
+    border: 2px solid #f76707;
+    border-radius: 5px;
+    background-color: #fff4e6;
+    max-width: 400px;
+}
+
+.media {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-template-areas: 
+	"content img";
+	margin-bottom: 1em;
+}
+
+.image {
+	grid-area: img;
+	background-color: #ffd8a8;
+}
+
+.text {
+	grid-area: content;
+	padding: 10px;
+}
+
+
+		
+	</style>
+
+</head>
+
+<body>
+
+	<div class="media">
+		<div class="image"></div>
+		<div class="text">This is a media object example. 
+      We can use grid-template-areas to switch around the image and text part of the media object.</div>
+	</div>
+
+</body>
+
+</html>

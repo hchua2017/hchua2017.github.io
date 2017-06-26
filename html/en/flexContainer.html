@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+
+	* {box-sizing: border-box;}
+		
+		#flexContainerRow {
+			display: flex;
+			flex-direction: row;
+
+			height: 500px;
+			width: 800px;
+			border: thick solid black;
+			margin: 30px;
+			justify-content: flex-end; /*X-AXIS*/
+			align-items: flex-end; /*Y-AXIS*/
+		}
+
+		#flexContainerCol {
+			display: flex;
+			flex-direction: column;
+
+			height: 500px;
+			width: 800px;
+			border: thick solid darkgrey;
+			margin: 30px;
+			justify-content: flex-start; /*Y-AXIS*/
+			align-items: flex-start; /*X-AXIS*/
+
+		}
+
+		.flexItem1 {
+			height: 50px;
+			width: 200px;
+			border: thick solid red;
+			/*align-self: flex-start; /*Y-AXIS ROW
+																X-AXIS COLUMN*/
+		}
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div id="flexContainerRow">
+		<p>test</p>
+		<div class="flexItem1"></div>
+		<div class="flexItem1"></div>
+		<div class="flexItem1"></div>
+	</div>
+
+	<div id="flexContainerCol">
+		<div style="display: inline-flex;">
+			<p>test123</p>
+			<div class="flexItem1"></div>
+		</div>
+		
+		<div style="align-self: center;"  class="flexItem1">
+			<img   src="../../img/141x164100ver3.png">
+		</div>
+		<div class="flexItem1"></div>
+	</div>
+
+</body>
+</html>

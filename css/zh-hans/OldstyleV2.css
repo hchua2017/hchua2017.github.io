@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar-inverse {
+	background-color: black;
+	border-color: black;
+}
+
+.dropdown-menu {
+
+	background-color: #222;
+	border-color: #080808;
+}
+
+.dropdown-toggle>.glyphicon-menu-hamburger {
+	color: white;
+}
+
+.dropdown-menu>li>a {
+	color: lightgrey;
+
+}
+
+.dropdown-menu>.active>a {
+	background-color: grey;
+}
+
+.dropdown-menu>.active>a:hover {
+	color: black;
+	background-color: white;
+}
+
+
+header {
+height: 51px;
+	background-color: black;
+}
+
+main {
+	background-color: white;
+
+	/*align-items: flex-start; 		/*Y-AXIS*/
+	/*justify-content: flex-start; /*X-AXIS*/
+}
+
+main h2, h3, h4, h5 {
+
+	color: black;
+	text-shadow: 0 0 1px black;
+}
+
+
+.jumbotron {
+	position: relative;
+	bottom: 785px;
+	margin-bottom: -785px;
+	background-color: transparent;
+	background: linear-gradient(to right, rgba(255, 230, 240, .9), rgba(255, 255, 230, .9));
+	border-radius: 0px;
+	padding-bottom: 88px;
+	padding-top: 95px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+
+
+
+}
+
+
+main h2#enHeader, h3#enHeader {
+	text-align: center;
+}
+
+main h2#zhHeader {
+	text-align: center;
+	font-family:  Arial, Helvetica, Simsun ,  "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei",   sans-serif;
+	font-size: 45px;
+}
+
+
+main h3#zhHeader {
+	text-align: center;
+	font-family:  Arial, Helvetica, Simsun ,  "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei",   sans-serif;
+
+}
+
+main .conContact {
+	margin-left: 20px;
+
+}
+
+main .conFlexContainer01 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+main .conFlexItem01 {
+	width: 500px;
+	margin: auto;
+}
+
+
+main .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+main #conLeft {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+main #conRight {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+main .flexContainer01 {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background: linear-gradient(to right, pink, white);
+	
+	padding-top: 0px;
+	padding-bottom: 0px;	
+}
+
+
+main .flexContainer02 {
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-around;
+	background: linear-gradient(to left, rgb(255, 255, 179), white);
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+
+main #flexItemTL01 {
+
+	width: 290px;
+	height: 786px;
+
+
+}
+
+main #flexItemTL01 img {
+	opacity: .3;
+}
+
+main #flexItemTR02 {
+	width: 290px;
+	height: 786px;
+
+}
+
+main #flexItemBL03 {
+	width: 290px;
+	height: 786px;
+
+}
+
+main #flexItemBR04 {
+	width: 290px;
+	height: 786px;
+	
+
+}
+
+main #flexItemBR04 img {
+	opacity: .3;
+}
+
+
+
+footer {
+	height: 150px;
+	background-color: black;
+
+}
+
+footer p {
+	text-align: left;
+	color: white;
+	font-family:  Arial, Helvetica,   "Hiragino Sans GB", "WenQuanYi Micro Hei",  "Microsoft YaHei", Simsun ,   sans-serif;
+	text-shadow: 0 0 1px white;
+}
+
+/*Large*/
+@media screen and (min-width: 1200px)  {
+
+	.navbar-inverse .navbar-nav>li>a {
+		transition-duration: 0.4s;
+	}
+
+	.navbar-inverse .navbar-nav>.active>a:hover
+	{
+		background-color: #636475;
+		color: white;
+	}
+
+	.navbar-inverse .navbar-nav>li>a:hover {
+		background-color: #636475;
+		color: white;
+		text-shadow: 0 0 10px #FFFFFF;
+	}
+
+	.navbar-inverse .navbar-nav>li>a:active {
+		transition-duration: 0.3s;
+		color: black;
+		background-color: #8B8CA4;
+		text-shadow: 0 0 20px #4C004C;
+
+	}
+
+}
+
+/*Medium*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*Small*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	.jumbotron {
+		background-color: transparent;
+		background: linear-gradient(to right, rgba(255, 230, 240, .6), rgba(255, 255, 230, .6));
+	}
+
+	main .flexContainer01 {
+		justify-content: flex-start;
+
+	}
+
+}
+
+/*Extra Small*/
+@media screen and (max-width: 767px) {
+
+	.jumbotron {
+		background: transparent;
+		background: linear-gradient(to right, rgba(255, 230, 240, .6), rgba(255, 255, 230, .6));
+	}
+
+	main .flexContainer01 {
+
+		background: linear-gradient(to right, rgba(255, 230, 240, 1), rgba(255, 255, 230, 1));
+	}
+
+}	
+
+	
+
+

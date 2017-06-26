@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.jumbotron {
+
+	background-color: white;
+	/*border: thin solid black;*/
+
+}
+
+#main {
+	background-color: white;
+
+
+
+
+	/*display: flex;
+	flex-direction: row;*/
+
+	/*align-items: flex-start; 		/*Y-AXIS*/
+	/*justify-content: flex-start; /*X-AXIS*/
+}
+
+
+#main .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+
+	/*border: thick solid red;*/
+}
+
+#main .container-fluid .col-md-2, .col-md-3, .col-md-7   {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#main .flexContainer01 {
+
+	/*border: thick solid black;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#main .flexContainer02 {
+
+	/*border: thick solid black;*/
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+
+#main #flexItemTL01 {
+	/*width: 290px;*/
+	height: 786px;
+	/*border: thick solid yellow;*/
+
+
+}
+
+#main #flexItemTR02 {
+	/*width: 302px;*/
+	height: 775px;
+/*border: thick solid green;*/
+
+}
+
+#main #flexItemBL03 {
+	/*width: 296px;*/
+	height: 791px;
+/*border: thick solid pink;*/
+
+}
+
+#main #flexItemBR04 {
+	/*width: 290px;*/
+	height: 779px;
+
+/*border: thick solid red;*/
+
+}
+
+
+
+
+.footer {
+	height: 100px;
+	background-color: green;
+	border: thin solid black;
+}

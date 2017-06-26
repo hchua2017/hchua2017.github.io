@@ -1,0 +1,638 @@
+* {
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+/*NAVBAR*/
+/*NAVBAR*/
+
+nav.navbar-inverse {
+	background-color: black;
+}
+
+nav.navbar-inverse .navbar-nav>li>a{
+	/*border: thin solid red;*/
+	font-size: 16px;
+	color: #9d9d9d;
+	/*transition-duration: 2s;*/
+}
+
+nav.navbar-inverse .navbar-nav>li>a:hover {
+	
+	transition-duration: .8s;
+	background-color: #3A3A3B;
+
+	color: white;
+	text-shadow: 0 0 7px white;
+
+} 
+
+nav.navbar-inverse .navbar-nav>li>a:active {
+	/*border: thin solid red;*/
+
+	transition-duration: .3s;
+	background-color: #DDDCE0;
+
+	color: black;
+	text-shadow: 0 0 1px black;
+
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+	/*border: thin solid red;*/
+
+	color: #9d9d9d;
+
+	background-color: #3A3A3B;
+
+} 
+
+nav.navbar-inverse .navbar-nav>.active>a:hover
+{
+	transition-duration: .8s;
+	background-color: #5F5F61;
+
+	color: white;
+	text-shadow: 0 0 7px white;
+
+} 
+
+nav.navbar-inverse .navbar-nav>.active>a:active
+{	
+
+	transition-duration: 0.3s;
+	background-color: #DDDCE0;
+	color: black;
+	text-shadow: 0 0 1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*HEADER*/
+/*HEADER*/
+/*HEADER*/
+header {
+height: 51px;
+	background-color: black;
+}
+
+
+
+
+/*MAIN*/
+/*MAIN*/
+/*MAIN*/
+main {
+	background-color: white;
+
+	/*align-items: flex-start; 		/*Y-AXIS*/
+	/*justify-content: flex-start; /*X-AXIS*/
+}
+
+main h2, h3, h4, h5 {
+
+	color: black;
+	text-shadow: 0 0 1px black;
+}
+
+main .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+/*MAIN BACKGROUND*/
+/*MAIN BACKGROUND*/
+/*MAIN BACKGROUND*/
+main #conLeft {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+main #conRight {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+main .flexContainer01 {
+	/*border: thick solid pink;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background: linear-gradient(to right, pink, white);
+	
+	padding-top: 0px;
+	padding-bottom: 0px;	
+}
+
+
+main .flexContainer02 {
+	/*border: thick solid yellow;*/
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-around;
+	background: linear-gradient(to left, rgb(255, 255, 179), white);
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+
+main #flexItemTL01 {
+
+	width: 290px;
+	height: 786px;
+
+}
+
+main #flexItemTR02 {
+	width: 290px;
+	height: 786px;
+
+}
+
+main #flexItemBL03 {
+	width: 290px;
+	height: 786px;
+
+}
+
+main #flexItemBR04 {
+	width: 290px;
+	height: 786px;
+	
+
+}
+
+main #flexItemTL01 img {
+	opacity: .3;
+}
+
+main #flexItemBR04 img {
+	opacity: .3;
+}
+
+
+
+
+
+
+/*JUMBOTRON*/
+/*JUMBOTRON*/
+/*JUMBOTRON*/
+.jumbotron {
+	/*border: thin solid black;*/
+	position: relative;
+	bottom: 785px;
+	margin-bottom: -785px;
+	background-color: transparent;
+	background: linear-gradient(to right, rgba(255, 230, 240, .9), rgba(255, 255, 230, .9));
+	border-radius: 0px;
+	padding-bottom: 28px;
+	padding-top: 95px;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 785px;
+}
+
+
+
+/*HOME PAGE*/
+/*HOME PAGE*/
+/*HOME PAGE*/
+
+main #home {
+	/*border: thin solid blue;*/
+}
+
+main #home #homeFlexContainer  {
+	/*border: thin solid red;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100%;
+	width: 100%;
+}
+
+#homeFlexItem01 #innerFlexLg {
+	/*border: thin solid blue;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+#homeFlexItem01 #innerFlexXs {
+	/*border: thin solid blue;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+#homeFlexItem01 #innerFlexLg img {
+	/*border: thin solid blue;*/
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	height: 164px;
+	width: 141px;
+}
+
+#homeFlexItem01 #innerFlexXs img {
+	/*border: thin solid red;*/
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	height: 82px;
+	width: 71px;
+}
+
+main #home #homeFlexContainer #homeFlexItem01 h2#enHeader, h3#enHeader {
+	/*border: thin solid green;*/
+	text-align: center;
+	
+	/*align-self: flex-start;*/
+
+}
+
+main #home #homeFlexContainer #homeFlexItem01 h2#zhHeader {
+	
+	/*border: thin solid green;*/
+	/*text-align: center;*/
+	font-family:  Arial, Helvetica, Simsun ,  "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei",   sans-serif;
+	font-size: 45px;
+}
+
+
+main #home #homeFlexContainer #homeFlexItem01 h3#zhHeader  {
+	/*border: thin solid blue;*/
+	/*text-align: center;*/
+	font-family:  Arial, Helvetica, Simsun ,  "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei",   sans-serif;
+
+}
+
+
+
+
+main #home #homeFlexContainer #homeFlexItem02 {
+	/*border: thin solid green;*/
+	width: 500px;
+	/*margin: auto;*/
+}
+
+main #home #homeFlexContainer #homeFlexItem03 {
+	/*border: thin solid green;*/
+	width: 500px;
+}
+
+main #home #homeFlexContainer #homeFlexItem03 .conContact {
+	margin-left: 20px;
+
+}
+
+
+
+
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
+/*ABOUT PAGE*/
+
+main #about #aboutFlexContainer {
+	/*border: thick solid black;*/
+	display: flex;
+	flex-direction: column;
+
+	justify-content: flex-start;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+main #about #aboutFlexContainer #aboutFlexItem01 {
+	/*border: thin solid red;*/
+}
+
+	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(1) {
+	/*border: thin solid blue;*/
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+	height: 322px;
+	width: 254px;
+}
+
+
+
+main #about #aboutFlexContainer #aboutFlexItem03 {
+	/*border: thin solid green;*/
+	width: 600px;
+}
+
+#about.jumbotron {
+	/*border: thin solid black;*/
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+
+/*courses PAGE*/
+/*courses PAGE*/
+/*courses PAGE*/
+
+main #courses #coursesFlexContainer {
+	/*border: thick solid black;*/
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem03, #coursesFlexItem02, #coursesFlexItem01 {
+	/*border: thin solid green;*/
+	width: 700px;
+}
+
+#courses.jumbotron {
+	/*border: thin solid black;*/
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+main #courses #coursesFlexContainer div .coursesPicFlex {
+	/*border: thin solid red;*/
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around;
+}
+
+main #courses #coursesFlexContainer img{
+	/*border: thick solid green;*/
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+main #courses #coursesFlexContainer #coursesImg01  {
+
+	/*border: thin solid red;*/
+	width: 256px; 
+	height: 125px;
+}
+
+main #courses #coursesFlexContainer #coursesImg02  {
+	/*border: thin solid green;*/
+	width: 256px; 
+	height: 138px;
+}
+
+main #courses #coursesFlexContainer #coursesImg03  {
+	/*border: thin solid blue;*/
+	width: 256px; 
+	height: 136px;
+}
+
+
+
+main #courses #coursesFlexContainer #coursesFlexItem01 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem02 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem03 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+main #courses #coursesFlexContainer #coursesFlexItem01 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem02 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem03 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
+}
+
+
+
+
+
+
+/*FOOTER*/
+/*FOOTER*/
+/*FOOTER*/
+
+footer {
+	height: 130px;
+	background-color: black;
+}
+
+
+footer p {
+	color: white;
+	font-family:  Arial, Helvetica,   "Hiragino Sans GB", "WenQuanYi Micro Hei",  "Microsoft YaHei", Simsun ,   sans-serif;
+	text-shadow: 0 0 1px white;
+}
+
+
+ #footFlexContainer {
+ 	/*border: thin solid blue;*/
+ 	margin-top: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+#footFlexContainer #footFlexItem2 {
+	/*border: thin solid white;*/
+
+	margin-top: 50px;
+	align-self: center;
+
+}
+
+#footFlexContainer #footFlexItem2 p{
+	font-size: 12px;
+}
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+/*MEDIA QUERIES*/
+/*MEDIA QUERIES*/
+
+/*Large*/
+@media screen and (min-width: 1200px)  {
+
+
+
+}
+
+/*Medium*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/*Small*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	.jumbotron {
+		background-color: transparent;
+		background: linear-gradient(to right, rgba(255, 230, 240, .6), rgba(255, 255, 230, .6));
+	}
+
+	main .flexContainer01 {
+		justify-content: flex-start;
+
+	}
+
+	#footFlexContainer {
+		height: 180px;
+	}
+
+
+
+
+}
+
+/*Extra Small*/
+@media screen and (max-width: 767px) {
+
+	main h2, h3, h4, h5 {
+
+	color: black;
+	text-shadow: 0 0 0px black;
+}
+
+	main #flexItemTL01 {
+
+		width: 290px;
+		height: 590px;
+
+	}
+
+	.jumbotron {
+		bottom: 585px;
+		margin-bottom: -585px;
+		background: transparent;
+		background: linear-gradient(to right, rgba(255, 230, 240, .6), rgba(255, 255, 230, .6));
+		padding-top: 0px;
+		padding-bottom:0px ;
+		height: 585px;
+	}
+
+
+	main #home #homeFlexContainer {
+
+		/*background: linear-gradient(to right, rgba(255, 230, 240, 1), rgba(255, 255, 230, 1));*/
+		justify-content: flex-start;
+	}
+
+	main #home #homeFlexContainer #homeFlexItem01  {
+		/*border: thin solid green;*/
+		/*margin-bottom: 20px;*/
+		
+	}
+
+	main #home #homeFlexContainer #homeFlexItem02  {
+		/*border: thin solid blue;*/
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
+
+	main #home #homeFlexContainer #homeFlexItem03 {
+		width: 100%;
+	}
+
+
+	/*main #about #aboutFlexContainer #aboutFlexItem02 {
+		padding-top: 20px;
+	}*/
+
+	main #about #aboutFlexContainer {
+		justify-content: flex-start;
+	}
+
+	main #about #aboutFlexContainer #aboutFlexItem03 {
+		width: 100%;
+		padding-left: 8px;
+		padding-right: 8px;
+		/*padding-top: 20px;*/
+	}
+
+	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(2) {
+	/*border: thin solid blue;*/
+		box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+		height: 165px;
+		width: 130px;
+	}
+
+	#about.jumbotron {
+		padding-top: 0px;
+	}
+
+
+
+	main #courses #coursesFlexContainer {
+		justify-content: flex-start;
+	}
+
+
+
+	main #courses #coursesFlexContainer #coursesFlexItem03, #coursesFlexItem02, #coursesFlexItem01 {
+		width: 100%;
+		padding-left: 8px;
+		padding-right: 8px;
+
+	}
+
+	#courses.jumbotron {
+		padding-top: 0px;
+	}
+
+	#footFlexContainer {
+		height: auto;
+	}
+
+
+
+}	
+
+	
+
