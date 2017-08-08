@@ -4,115 +4,47 @@
 		"selected_items":
 		[
 			[
-				"v",
-				"visible-md"
+				"fle",
+				"flex-start"
 			],
 			[
-				"vis",
-				"visible-lg"
+				"font",
+				"font-size"
 			],
 			[
-				"margin",
-				"margin-bottom"
+				"f",
+				"flex-end"
 			],
 			[
-				"mar",
-				"margin"
+				"fel",
+				"flex-start"
 			],
 			[
 				"flex",
 				"flex-start"
 			],
 			[
-				"fle",
-				"flex-start"
-			],
-			[
-				"fel",
-				"flex-end"
-			],
-			[
-				"align",
-				"align-self"
-			],
-			[
-				"fo",
-				"footer\tTag"
-			],
-			[
-				"contain",
-				"container-fluid"
-			],
-			[
-				"w",
-				"width"
-			],
-			[
-				"foot",
-				"footFlexItem1"
-			],
-			[
-				"href",
-				"href\tAttr"
-			],
-			[
-				"pad",
-				"padding-bottom"
-			],
-			[
-				"s",
-				"solid"
-			],
-			[
-				"r",
-				"row"
-			],
-			[
-				"co",
-				"column"
-			],
-			[
-				"ds",
-				"display"
-			],
-			[
-				"padd",
-				"padding-top"
-			],
-			[
-				"algi",
-				"align-self"
-			],
-			[
-				"in",
-				"inline-flex"
-			],
-			[
-				"sp",
-				"space-around"
-			],
-			[
-				"font",
-				"font-weight"
-			],
-			[
-				"fl",
-				"flex-start"
-			],
-			[
-				"nav",
-				"navbar"
-			],
-			[
-				"f",
-				"flex-start"
+				"mar",
+				"margin-right"
 			],
 			[
 				"vs",
 				"visible-sm"
 			],
 			[
+				"vis",
+				"visible-md"
+			],
+			[
 				"col",
+				"column-reverse"
+			],
+			[
+				"r",
+				"row-reverse"
+			],
+			[
+				"co",
 				"column-reverse"
 			],
 			[
@@ -124,12 +56,28 @@
 				"inline-flex"
 			],
 			[
+				"in",
+				"inline"
+			],
+			[
 				"vi",
 				"visible-lg"
 			],
 			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"v",
+				"visible-xs"
+			],
+			[
 				"over",
 				"overview"
+			],
+			[
+				"margin",
+				"margin-bottom"
 			],
 			[
 				"h",
@@ -156,6 +104,10 @@
 				"main-start"
 			],
 			[
+				"align",
+				"align-self"
+			],
+			[
 				"ali",
 				"align-items"
 			],
@@ -166,6 +118,10 @@
 			[
 				"flx",
 				"flex-basis"
+			],
+			[
+				"fl",
+				"flex-shrink"
 			],
 			[
 				"marg",
@@ -218,6 +174,10 @@
 			[
 				"padi",
 				"padding-left"
+			],
+			[
+				"s",
+				"space-around"
 			],
 			[
 				"b",
@@ -364,6 +324,10 @@
 				"XMLHttpRequest"
 			],
 			[
+				"w",
+				"window"
+			],
+			[
 				"set",
 				"setRequestHeader"
 			],
@@ -492,6 +456,10 @@
 				"content\tAttr"
 			],
 			[
+				"href",
+				"hreflang\tAttr"
+			],
+			[
 				"background",
 				"background-image"
 			],
@@ -514,16 +482,48 @@
 			[
 				"word",
 				"word-wrap"
+			],
+			[
+				"colla",
+				"collapse"
+			],
+			[
+				"coll",
+				"collapse"
+			],
+			[
+				"well",
+				"well-sm"
+			],
+			[
+				"collap",
+				"collapse1"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"spac",
+				"space-around"
+			],
+			[
+				"p",
+				"padding-left"
+			],
+			[
+				"PA",
+				"padding-left"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/index.html",
+			"file": "/C/Users/chema/Documents/GitHub/hchua2017.github.io/index.html",
 			"settings":
 			{
-				"buffer_size": 5870,
+				"buffer_size": 6192,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +532,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5950,
+				"buffer_size": 6270,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -550,37 +550,17 @@
 			"file": "courses.html",
 			"settings":
 			{
-				"buffer_size": 8233,
+				"buffer_size": 8201,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
+			"file": "/C/Users/chema/Documents/GitHub/hchua2017.github.io/css/en/style.css",
 			"settings":
 			{
-				"buffer_size": 10337,
-				"encoding": "UTF-8",
+				"buffer_size": 10339,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "flexContainer.html",
-			"settings":
-			{
-				"buffer_size": 1192,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "createCommons.txt",
-			"settings":
-			{
-				"buffer_size": 1000,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "createCommons"
 			}
 		}
 	],
@@ -632,9 +612,13 @@
 	},
 	"file_history":
 	[
-		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
-		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/en/overview.html",
+		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/.htaccess",
+		"/C/Users/chema/Documents/GitHub/hchua2017.github.io/html/zh-hans/index.html",
+		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/zh-hans/style.css",
+		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/courses.html",
+		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/about.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/index.html",
+		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/overview.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/en/index.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHan/index.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHan/html/zh-hans/index.html",
@@ -723,7 +707,6 @@
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/en/fees.html",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/en/affiliations.html",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/inv/.htaccess",
-		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/.htaccess",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/inv/helloWorld.php",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/inv/serverResOrig.txt",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/inv/serverRes.txt",
@@ -756,10 +739,7 @@
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/loadCSS/src/loadCSS.js",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/loadCSS/src/inlineLoadCSS.js",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/indexv2.html",
-		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/en/indexv2.html",
-		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/crit/about.css",
-		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/min/index.html",
-		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/en/dist/index.html"
+		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/en/indexv2.html"
 	],
 	"find":
 	{
@@ -778,12 +758,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			";\n",
-			"119px",
-			"around",
-			";\">",
-			"border: thin solid blue;",
+			"transition-duration",
 			"overview",
+			"h5",
+			"h4",
+			"\t  \t\t\t\t<h4>韓女士是一位优秀的語言文化的傳播人士，熟悉東西方文化，精通四國語言並具有豐富的語言文化教学经验。自2011年移居澳洲以來，一直从事教育及翻譯工作，包括英語，普通話，韩語及日語。韩女士目前在詹姆斯库克大學教授普通话。</h4>\n \n\t\t\t\t\t\t<h4>華澳语言&文化有限公司专注于将中澳語言文化巧妙結合，为中國學生打开在澳洲的留學大门。 本公司提供中學，高中及大學的留學服务，为中國留學生在澳洲留學創造好的機會， 確保訪問汤斯维尔市的中國留學生感到倍受歡迎，使學生们获得當地教育積極向上的學習和文化生活体验，促進中國留學生成功獲得澳洲的中高等學歷。</h4>\n\t\t\t\t\t\t \n\t\t\t\t\t\t<h4>除教育外，韓女士還携手与汤斯维尔最優秀的律師事務所合作，擔任國際商業服務部的谈判工作，主要包括澳洲与中國公司間的農牧業及太陽能項目的商談。</h4>",
 			"h4",
 			";);",
 			";\n",
@@ -905,7 +884,8 @@
 			"IF(E7<>\"NA\",TRUE,FALSE)",
 			"IF(D7<>\"NA\",TRUE,FALSE)",
 			"ISBLANK(D7)=FALSE",
-			"IF(D7<>\"NA\",TRUE,FALSE)"
+			"IF(D7<>\"NA\",TRUE,FALSE)",
+			"\"NA\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -913,8 +893,11 @@
 		"regex": false,
 		"replace_history":
 		[
-			"/*border: thin solid blue;*/",
 			"courses",
+			"h4",
+			"h3",
+			"h5",
+			"\t  \t\t\t\t<h4>韓女士是一位优秀的語言文化的傳播人士，熟悉東西方文化，精通四國語言並具有豐富的語言文化教学经验。自2011年移居澳洲以來，一直从事教育及翻譯工作，包括英語，普通話，韩語及日語。韩女士目前在詹姆斯库克大學教授普通话。</h4>\n \n\t\t\t\t\t\t<h4>華澳语言&文化有限公司专注于将中澳語言文化巧妙結合，为中國學生打开在澳洲的留學大门。 本公司提供中學，高中及大學的留學服务，为中國留學生在澳洲留學創造好的機會， 確保訪問汤斯维尔市的中國留學生感到倍受歡迎，使學生们获得當地教育積極向上的學習和文化生活体验，促進中國留學生成功獲得澳洲的中高等學歷。</h4>\n\t\t\t\t\t\t \n\t\t\t\t\t\t<h4>除教育外，韓女士還携手与汤斯维尔最優秀的律師事務所合作，擔任國際商業服務部的谈判工作，主要包括澳洲与中國公司間的農牧業及太陽能項目的商談。</h4>",
 			"h5",
 			"h4",
 			"\t  \t\t\t\t<h5>一点点关于我自己</h5>\n\n\t  \t\n\t\n\t  \t\t\t\t<h5>我学习和教授日语和英语作为我的教育学士学位的一部分。我能说流利的韩语。</h5>\n\t  \t\t\t\t<h5>我致力于为学生提供基础技能，以激励和促进他们的语言技能学习。我在教学语言方面有多年的经验，如普通话和我在积极的学习环境中这样做。</h5>\n\t  \t\t\t\t<h5>我希望有机会协助发展学生学习第二语言，这将是我们现在生活在全球的重要资产。</h5>",
@@ -1005,24 +988,24 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/index.html",
+					"file": "/C/Users/chema/Documents/GitHub/hchua2017.github.io/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5870,
+						"buffer_size": 6192,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4094,
-								4094
+								868,
+								868
 							]
 						],
 						"settings":
@@ -1030,10 +1013,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 536.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1042,15 +1025,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5950,
+						"buffer_size": 6270,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4104,
-								4143
+								5894,
+								5894
 							]
 						],
 						"settings":
@@ -1058,10 +1041,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6920.0,
+						"translation.y": 7440.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1077,8 +1060,8 @@
 						"selection":
 						[
 							[
-								3993,
-								3993
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1086,7 +1069,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5153.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1098,15 +1081,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8233,
+						"buffer_size": 8201,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7271,
-								7271
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1114,27 +1097,27 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 10096.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
+					"file": "/C/Users/chema/Documents/GitHub/hchua2017.github.io/css/en/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10337,
+						"buffer_size": 10339,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8537,
-								8537
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1143,68 +1126,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 20036.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "flexContainer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1192,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								790,
-								790
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1440.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "createCommons.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1000,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								874,
-								921
-							]
-						],
-						"settings":
-						{
-							"auto_name": "createCommons",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1250,7 +1175,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "enChenhua.sublime-project",
+	"project": "hchua2017En.sublime-project",
 	"replace":
 	{
 		"height": 120.0
