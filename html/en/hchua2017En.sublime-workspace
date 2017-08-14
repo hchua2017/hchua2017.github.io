@@ -1004,8 +1004,8 @@
 						"selection":
 						[
 							[
-								868,
-								868
+								3600,
+								3611
 							]
 						],
 						"settings":
@@ -1013,7 +1013,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 5400.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1032,8 +1032,8 @@
 						"selection":
 						[
 							[
-								5894,
-								5894
+								5272,
+								5272
 							]
 						],
 						"settings":
@@ -1041,7 +1041,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 7440.0,
+						"translation.y": 7520.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
